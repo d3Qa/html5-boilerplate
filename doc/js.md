@@ -5,14 +5,14 @@ table of contents](TOC.md)
 
 Information about the default JavaScript included in the project.
 
-## main.js
+### `main.js`
 
 This file can be used to contain or reference your site/app JavaScript code.
 For larger projects, you can make use of a JavaScript module loader, like
 [Require.js](http://requirejs.org/), to load any other scripts you need to
 run.
 
-## plugins.js
+### `plugins.js`
 
 This file can be used to contain all your plugins, such as jQuery plugins and
 other 3rd party scripts.
@@ -22,7 +22,7 @@ One approach is to put jQuery plugins inside of a `(function($){ ...
 blanket. Read more about [jQuery plugin
 authoring](http://docs.jquery.com/Plugins/Authoring#Getting_Started)
 
-## vendor
+### `/vendor`
 
 This directory can be used to contain all 3rd party library code.
 
